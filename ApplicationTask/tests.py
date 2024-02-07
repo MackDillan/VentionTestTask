@@ -10,6 +10,7 @@ from rest_framework.test import APIRequestFactory
 
 
 class CategoryModelTests(APITestCase):
+    """Category model tests CRUD"""
     def setUp(self):
         factory = APIRequestFactory()
         request = factory.get('/')
@@ -80,6 +81,7 @@ class CategoryModelTests(APITestCase):
 
 
 class TaskModelTests(APITestCase):
+    """Task model tests CRUD"""
     def setUp(self):
         factory = APIRequestFactory()
         request = factory.get('/')
